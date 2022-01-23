@@ -9,6 +9,10 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         // Zadanie 1.a
+        /* lepszym rozwiązaniem jest deklarowanie interfejsem, wtedy można inicjować różnymi typami klas, nawet po przypisaniu już danych,
+           polecam tak tworzyć listy/sety mapy : List<String> = new ArrayList<>(), Set<Typ> = new SetTree<>(), Map<Integer, String> = new HashMap<>();
+           List, Set, Map - to interfejsy, warto o tym poczytać
+        */
         ArrayList<String> lista = new ArrayList<>();
         for (int i = 0; i < 5; i++) {
             lista.add(scanner.nextLine());
